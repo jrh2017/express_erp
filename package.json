@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
     "model": "node sequelize.model.js"
   },
   "dependencies": {
